@@ -2,10 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Conversations\DailyStatsConversation;
 use BotMan\BotMan\BotMan;
 use Illuminate\Http\Request;
 use App\Conversations\ExampleConversation;
 use App\Conversations\MenuConversation;
+use App\Conversations\FallbackConversation;
+use App\Conversations\PreventionConversation;
+use App\Conversations\SymptomsConversation;
 
 class BotManController extends Controller
 {
@@ -38,5 +42,21 @@ class BotManController extends Controller
     public function menuConversation(BotMan $bot)
     {
         $bot->startConversation(new MenuConversation());
+    }
+    public function fallbackConversation(BotMan $bot)
+    {
+        $bot->startConversation(new FallbackConversation());
+    }
+    public function symptomsConversation(BotMan $bot)
+    {
+        $bot->startConversation(new SymptomsConversation());
+    }
+    public function preventionConversation(BotMan $bot)
+    {
+        $bot->startConversation(new PreventionConversation());
+    }
+    public function dailyStatsConversation(BotMan $bot)
+    {
+        $bot->startConversation(new DailyStatsConversation());
     }
 }
