@@ -25,8 +25,8 @@ class MenuConversation extends Conversation
         
         What would you like to know about COVID-19?\r\n
         Reply with one of the words in the list below to get the correct information on the topic:\r\n\r\n
-        
-        Symptoms 🤒
+        ℹ️ About
+        \r\nSymptoms 🤒
         \r\nPrevention 👍
         \r\nPositive Cases🗓
         \r\nDaily Stats 🗓
