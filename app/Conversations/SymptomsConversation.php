@@ -33,10 +33,8 @@ class SymptomsConversation extends Conversation
         
         Mortality: The mortality of COVID-19 appears higher than for the flu. 
         
-        Learn more to be ready for COVID-19 at www.sacoronavirus.co.za  
-        NICD Hotline: 0800 029 999  
+        Learn more to be ready for COVID-19 at https://www.who.int/health-topics/coronavirus  
         
-        💟 Reply CHECK to use the COVID-19 risk assessment tool. 
         📌 Reply MENU to return to the main menu.');
     }
 }

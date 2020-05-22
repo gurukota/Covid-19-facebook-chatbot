@@ -34,7 +34,6 @@ class TestingConversation extends Conversation
         -----
         Reply:
         
-        💟 CHECK to use the COVID-19 risk assessment tool
         🤒 SYMPTOMS for more on symptoms
         📌 MENU to return to the main menu');
     }

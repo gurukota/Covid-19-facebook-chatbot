@@ -13,7 +13,6 @@ $botman->hears('Update Summary', BotManController::class.'@updateSummaryConversa
 $botman->hears('Myths', BotManController::class.'@mythsConversation');
 $botman->hears('Testing', BotManController::class.'@testingConversation');
 $botman->hears('Conditions', BotManController::class.'@conditionsConversation');
-$botman->hears('Check', BotManController::class.'@checkConversation');
 $botman->hears('About', BotManController::class.'@aboutConversation');
 $botman->hears('Risks', BotManController::class.'@risksConversation');
 $botman->hears('Pregnant', BotManController::class.'@pregnantConversation');

@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Conversations\AboutConversation;
 use App\Conversations\CasesByProvincesConversation;
-use App\Conversations\CheckConversation;
 use App\Conversations\ChronicConversation;
 use App\Conversations\ConditionsConversation;
 use App\Conversations\DailyStatsConversation;
@@ -93,10 +92,6 @@ class BotManController extends Controller
     public function conditionsConversation(BotMan $bot)
     {
         $bot->startConversation(new ConditionsConversation());
-    }
-    public function checkConversation(BotMan $bot)
-    {
-        $bot->startConversation(new CheckConversation());
     }
     public function aboutConversation(BotMan $bot)
     {

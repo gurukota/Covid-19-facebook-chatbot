@@ -19,7 +19,7 @@ class PreventionConversation extends Conversation
         ✅ Avoid touching your eyes, nose and mouth.  
         ✅ Cover your cough or sneeze with your bent elbow or a tissue. Throw it away after you\'ve used it.  
         ✅ Avoid contact with infected people. Stay at least 1-meter away from anyone who is coughing or sneezing. 
-        ✅ Stay at home if you feel ill. If you have a fever, cough and difficulty breathing, phone your health worker. (Reply CHECK to use the COVID-19 risk assessment tool) 
+        ✅ Stay at home if you feel ill. If you have a fever, cough and difficulty breathing, phone your health worker.
         ✅ Practice Social Distancing (Reply SOCIAL for guidelines)
         ✅ Wear a cloth mask in public places. Masks help slow the spread of the infection. Medical masks are reserved for healthcare workers. (Reply MASK for more info)
         
